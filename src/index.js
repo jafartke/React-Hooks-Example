@@ -1,5 +1,6 @@
 import React, { useState, Component } from "react";
 import ReactDOM from "react-dom";
+import GoogleBtn from "./GoogleBtn";
 
 import "./styles.css";
 
@@ -20,6 +21,7 @@ class App extends Component {
     return (
       <div>
         <Example />
+        <GoogleBtn />
       </div>
     );
   }
